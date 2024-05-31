@@ -69,10 +69,10 @@ To set up the project locally, follow these steps:
 Here are some screenshots of the application in action:
 
 #### Home Page
-![Home Page](./screenshots/Screenshot1.png)
+![Home Page](./screenshots/Screenshot 2024-05-31 at 12.15.45 AM.png)
 
 #### File Upload
-![File Upload](./screenshots/Screenshot2.png)
+![File Upload](./screenshots/Screenshot 2024-05-31 at 12.16.34 AM.png)
 
 #### Prediction
 ![Prediction](./screenshots/Screenshot3.png)
