@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='answer.css') }}">
+</head>
+<body>
+    <div class="div">
+        <div class="div-2">Emotional Voice Analyzer</div>
+        <div class="div-3">
+          <div class="div-4"></div>
+          <a class="nav-item nav-link" href="/">Home</a>
+          <div class="div-5"></div>
+          <a class="nav-item nav-link" href="/predict">Predict</a>
+        </div>
+      </div>
+      <div class="text">EVA has predicted your audio to be:</div>
+    <div class="container">
+        <div class="tone">{{ prediction }}</div>
+    </div>
+    <div class="container">
+    <a class="button" href="/predict">Try another prediction</a>
+    </div>
+</body>
+</html>

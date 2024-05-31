@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Audio File</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='select.css') }}">
+</head>
+<body>
+    <div class="div">
+        <div class="div-2">Emotional Voice Analyzer</div>
+        <div class="div-3">
+          <div class="div-4"></div>
+          <a class="nav-item nav-link" href="/">Home</a>
+          <div class="div-5"></div>
+          <a class="nav-item nav-link" href="/predict">Predict</a>
+        </div>
+      </div>
+    <div class="text">Select an Audio for EVA to Predict</div>
+    <form action="/predict" method="post">
+        <div class="container">
+        <select class="file" id="audio_file" name="audio_file">
+            {% for file in audio_files %}
+            <option value="{{ file.file_path }}">{{ file.filename }}</option>
+            {% endfor %}
+        </select>
+        <input class="button" type="submit" value="Predict">
+</div>
+    </form>
+    <br>
+</body>
+</html>

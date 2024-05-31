@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='upload.css') }}">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="div">
+        <div class="div-2">Emotional Voice Analyzer</div>
+        <div class="div-3">
+          <div class="div-4"></div>
+          <a class="nav-item nav-link" href="/">Home</a>
+          <div class="div-5"></div>
+          <a class="nav-item nav-link" href="/predict">Predict</a>
+        </div>
+      </div>
+    <div class="main">
+  <div class="main-2">
+    <div class="main-3">EVA</div>
+    <div id="container">
+        <form action = "/upload" method="post" enctype="multipart/form-data" class="box has-advanced-upload">
+          <div class="box-input">
+            <input type="file" name="file" id="file" class="box-file" multiple onchange ="updateLabel()">
+            <label for="file" id="file-label"><strong>Upload a file</strong><span class="box-dragndrop"></span></label>
+            <button type="submit" class="button" value="Upload">Upload</button>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+body {
+    background-color: #DFDEC1;
+    
+    /* Additional styling starts below. */
+    
+    font-family: 'Lexend Deca', sans-serif;
+    width: 800px; 
+    color: #2E475D;
+    display: flex;
+    flex-direction: column;
+   
+    height: 100%;
+    margin: auto;
+    text-shadow: 0 0px 2px rgba(245, 245, 245, .25);
+
+  }
+
+  .div {
+    background-color: #fff;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 10px 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div {
+      flex-wrap: wrap;
+      padding: 0 0px;
+    }
+  }
+  .div-2 {
+    font-family: Inter, sans-serif;
+   
+  }
+  .div-3 {
+    justify-content: end;
+    display: flex;
+    gap: 0px;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      white-space: initial;
+      
+    }
+  }
+  .div-4 {
+    font-family: Inter, sans-serif;
+  }
+  .div-5 {
+    font-family: Inter, sans-serif;
+  }
+
+  .nav-item {
+    font-family: Inter, sans-serif;
+  }
+  
+  .nav-link {
+    color: #000; /* Text color */
+    font-weight: 500; /* Font weight */
+    font-size: 20px; /* Font size */
+    text-decoration: none; /* Remove underline from link */
+    padding: 20px 20px; /* Padding around the link */
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+
+
+  .main {
+    background-color: #dfdec1;
+    display: flex;
+    align-items: center;
+    font-size: 75px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    line-height: 100%;
+    justify-content: center;
+    padding: 0px 40px;
+  }
+  @media (max-width: 991px) {
+    .main {
+      font-size: 40px;
+      padding: 0 20px;
+    }
+  }
+  .main-2 {
+    display: flex;
+    margin-top: 113px;
+    width: 792px;
+    max-width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  @media (max-width: 991px) {
+    .main-2 {
+     
+      font-size: 40px;
+    }
+  }
+  .main-3 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Galdeano, sans-serif;
+    background-color: #d9d9d9;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 100px 11px 100px;
+  }
+  @media (max-width: 1200px) {
+    .main-3 {
+      font-size: 40px;
+      max-width: 100%;
+    }
+  }
+
