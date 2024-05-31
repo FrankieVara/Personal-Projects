@@ -69,13 +69,19 @@ To set up the project locally, follow these steps:
 Here are some screenshots of the application in action:
 
 #### Home Page
-![Home Page](./screenshots/Screenshot 2024-05-31 at 12.15.45 AM.png)
+![Home Page](./screenshots/homepage.png)
 
 #### File Upload
-![File Upload](./screenshots/Screenshot 2024-05-31 at 12.16.34 AM.png)
+![File Upload](./screenshots/uploaded.png)
+
+#### After File Upload
+![After File Upload](./screenshots/transition.png)
+
+#### Selection
+![Selection](./screenshots/select.png)
 
 #### Prediction
-![Prediction](./screenshots/Screenshot3.png)
+![Prediction](./screenshots/prediction_output.png)
 
 ## Acknowledgements
 - Special thanks to the contributors of the audio dataset on Kaggle.
