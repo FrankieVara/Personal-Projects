@@ -84,6 +84,6 @@ Here are some screenshots of the application in action:
 ![Prediction](./screenshots/prediction_output.png)
 
 ## Acknowledgements
-- Special thanks to the contributors of the audio dataset on Kaggle.
+- Special thanks to the audio dataset on Kaggle - CREMA-D, RAVDESS, TESS, and SAVEE.
 - Thanks to the developers of TensorFlow, Keras, and Flask for their amazing libraries.
 
